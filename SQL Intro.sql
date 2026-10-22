@@ -19,7 +19,7 @@ order by price desc;
 select * from employees
 where middleinitial is null;
 -- find distinct product prices
-select distinct(price) from products;
+select distinct price from products;
 select * from products;
 -- find all employees whose first name starts with the letter ‘j’
 select * from employees
